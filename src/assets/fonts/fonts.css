@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/src/assets/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/src/assets/fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Authentic Signature';
+  src: url('/src/assets/fonts/Authentic Signature.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Caveat-Medium';
+  src: url('/src/assets/fonts/Caveat-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Caveat-Medium';
+  src: url('/src/assets/fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
