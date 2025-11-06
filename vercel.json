@@ -9,7 +9,6 @@
   "buildCommand": "vite build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+
   ]
 }
