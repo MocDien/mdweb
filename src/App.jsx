@@ -35,7 +35,7 @@ const handleMouseLeave = () => {
   if (showTimeoutRef.current) clearTimeout(showTimeoutRef.current)
   hideTimeoutRef.current = setTimeout(() => {
     setActiveDropdown(null)
-  }, 400)
+  }, 100)
 };
 
   return (
@@ -82,7 +82,7 @@ const handleMouseLeave = () => {
         <header className="border-b border-[#1a1a1a]">
           <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
             <img
-              src="/assets/logo-mocdien.png"
+              src="public/assets/logo-mocdien.png"
               alt="Moc Dien"
               className="h-10 hover:scale-105 transition-transform duration-500"
             />
@@ -132,13 +132,13 @@ const handleMouseLeave = () => {
 	 {/* Hero Section */}
       <section
         className="relative bg-cover bg-top min-h-[80vh] flex flex-col justify-center items-center text-center overflow-hidden mt-[80px]"
-        style={{ backgroundImage: "url('/assets/bg-coffee.png')" }}
+        style={{ backgroundImage: "url('public/assets/bg-coffee.png')" }}
       >
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 max-w-5xl px-4 animate-fadeInUp">
           <h1 className="font-caveat text-4xl text-white drop-shadow-lgg">ĐẾN TỪ SỰ THẤU HIỂU</h1>
           <img
-            src="/assets/chon-logo.png"
+            src="public/assets/chon-logo.png"
             alt="Chon"
             className="mx-auto h-20 mb-3 hover:brightness-105 hover:scale-105 transition-transform duration-700"
           />
@@ -150,7 +150,7 @@ const handleMouseLeave = () => {
                 className="w-57 h-[30rem] bg-[#0] rounded-[2rem] hover:brightness-150 overflow-hidden transition-all duration-700 hover:scale-105 shadow-lg"
               >
                 <img
-                  src={`/assets/${img}`}
+                  src={`public/assets/${img}`}
                   className="w-full h-full object-cover group-hover:opacity-90 transition-all duration-700"
                 />
               </div>
@@ -165,7 +165,7 @@ const handleMouseLeave = () => {
     {/* Bên trái: hình ảnh lớn */}
     <div className="relative h-[600px] md:h-auto overflow-hidden">
      <motion.img
-         src="/assets/coffee-pick.jpg"
+         src="public/assets/coffee-pick.jpg"
          alt="Thu hoạch cà phê"
          className="w-full h-full object-cover"
          style={{
@@ -188,7 +188,7 @@ const handleMouseLeave = () => {
         {/* Bài viết 1 */}
         <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
           <img
-            src="/assets/coffee-craft.jpg"
+            src="public/assets/coffee-craft.jpg"
             alt="Craft Coffee"
             className="w-full h-44 object-cover"
           />
@@ -206,7 +206,7 @@ const handleMouseLeave = () => {
         {/* Bài viết 2 */}
         <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
           <img
-            src="/assets/coffee-legend.jpg"
+            src="public/assets/coffee-legend.jpg"
             alt="Đoàn Triệu Nhạn"
             className="w-full h-44 object-cover"
           />
@@ -261,7 +261,7 @@ const handleMouseLeave = () => {
       
       {/* Bài viết 1 */}
       <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
-        <img src="/assets/coffee-grow1.jpg" alt="SHG Coffee" className="w-full h-44 object-cover" />
+        <img src="public/assets/coffee-grow1.jpg" alt="SHG Coffee" className="w-full h-44 object-cover" />
         <div className="p-5">
           <h3 className="text-[17px] font-semibold text-[#b0d4ff] mb-2 hover:text-brand transition-all duration-300">
             Cà phê SHG là gì? đặc điểm của cà phê Strictly High Grown (SHG)
@@ -275,7 +275,7 @@ const handleMouseLeave = () => {
 
       {/* Bài viết 2 */}
       <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
-        <img src="/assets/coffee-grow2.jpg" alt="Tưới cà phê" className="w-full h-44 object-cover" />
+        <img src="public/assets/coffee-grow2.jpg" alt="Tưới cà phê" className="w-full h-44 object-cover" />
         <div className="p-5">
           <h3 className="text-[17px] font-semibold text-[#b0d4ff] mb-2 hover:text-brand transition-all duration-300">
             Canh tác 08: Kỹ thuật tưới nước cho cây cà phê
@@ -289,7 +289,7 @@ const handleMouseLeave = () => {
 
       {/* Bài viết 3 */}
       <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
-        <img src="/assets/coffee-grow3.jpg" alt="Sơ chế ướt" className="w-full h-44 object-cover" />
+        <img src="public/assets/coffee-grow3.jpg" alt="Sơ chế ướt" className="w-full h-44 object-cover" />
         <div className="p-5">
           <h3 className="text-[17px] font-semibold text-[#b0d4ff] mb-2 hover:text-brand transition-all duration-300">
             Sơ chế ướt có còn là tiêu chuẩn của ngành cà phê?
@@ -303,7 +303,7 @@ const handleMouseLeave = () => {
 
       {/* Bài viết 4 */}
       <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
-        <img src="/assets/coffee-grow4.jpg" alt="Cà phê nhân xanh" className="w-full h-44 object-cover" />
+        <img src="public/assets/coffee-grow4.jpg" alt="Cà phê nhân xanh" className="w-full h-44 object-cover" />
         <div className="p-5">
           <h3 className="text-[17px] font-semibold text-[#b0d4ff] mb-2 hover:text-brand transition-all duration-300">
             Hoạt độ nước và chất lượng cà phê nhân xanh
@@ -317,7 +317,7 @@ const handleMouseLeave = () => {
 
       {/* Bài viết 5 */}
       <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
-        <img src="/assets/coffee-grow5.jpg" alt="Sơ chế cà phê" className="w-full h-44 object-cover" />
+        <img src="public/assets/coffee-grow5.jpg" alt="Sơ chế cà phê" className="w-full h-44 object-cover" />
         <div className="p-5">
           <h3 className="text-[17px] font-semibold text-[#b0d4ff] mb-2 hover:text-brand transition-all duration-300">
             Sơ chế cà phê: Các quy trình then chốt
@@ -331,7 +331,7 @@ const handleMouseLeave = () => {
 
       {/* Bài viết 6 */}
       <div className="bg-[#181818] rounded-lg overflow-hidden hover:shadow-[0_0_25px_rgba(243,178,58,0.3)] transition-all duration-500">
-        <img src="/assets/coffee-grow6.jpg" alt="Thu hoạch cà phê" className="w-full h-44 object-cover" />
+        <img src="public/assets/coffee-grow6.jpg" alt="Thu hoạch cà phê" className="w-full h-44 object-cover" />
         <div className="p-5">
           <h3 className="text-[17px] font-semibold text-[#b0d4ff] mb-2 hover:text-brand transition-all duration-300">
             Canh tác bền vững: Thu hoạch và bảo quản hạt cà phê
